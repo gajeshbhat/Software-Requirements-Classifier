@@ -1,0 +1,5 @@
+seaborn==0.11.1
+pandas==1.1.5
+numpy==1.18.5
+spacy==2.3.5
+nltk==3.5

@@ -1,0 +1,70 @@
+F:The system shall display Events or Activities.
+F: The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table
+F:The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data
+F:The table side of the display shall be split into 2 regions: sequential and temporal.
+F:The top 1/4 of the table will hold events that are to occur sequentially.
+F:The bottom 3/4 of the table will hold events that occur according to its relevance to current time.
+F:The system shall color code events according to their variance from current time.
+F:The system shall provide a history report of changes made to the Activity or Event data
+LF:The look and feel of the system shall conform to the user interface standards of the smart device.
+LF: The user interface shall have standard menus  buttons for navigation
+F:The system shall update or create new property listings in the MLS
+F:Realtor shall be able to generate a CMA report based on property criteria
+F:Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes
+F: Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.
+F:Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.
+F:A class shall be either a non-clinical class or a clinical class.
+F: A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.
+F: A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.
+F:Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.
+F:A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.
+F:Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study
+F:The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members� planning purposes.
+F: The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.
+F:Classes for a given cohort shall not conflict with regards to the time and day that they are offered.
+F:Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.
+F: Clinical site information shall include (but not be limited to) the name of the site  contact person  and contact information.
+F:Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.
+F: A clinical lab section shall include the clinical site name  the class  instructor  day and time of the lab.
+F:Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.
+F:The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.
+F:The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.
+F:Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.
+F:A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.
+F: A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.
+F: The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.
+F: The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).
+F: The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.
+F: The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.
+F:The system shall be able to display a printable summary of the system log.
+F: The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.
+F: The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort�s program of study and changes to a given week�s schedule (lab cancelled this week due to instructor illness).
+F: The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student�s status from full time to part time and moving a student to a different clinical section.
+F: Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts  including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.
+F: Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department  including the Program of study name  and required classes for that Program of Study.
+F: Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.
+F: Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name  the department/section for the lab  the class  instructor  day and time of lab  and contact information.
+F: Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name  phone number  e-mail  status (full time or part time)  and program of study.
+LF:The Disputes application shall comply with the corporate standards for user interface creation for internally and externally used applications.
+LF:All screens created as part of the Disputes application must comply with corporate standards for interface creation.
+US:The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.
+US:100% of the cardmember and merchant services representatives shall use the Disputes application regularly after a 2-day training course.
+US:100% of cardmember services representatives shall be able to successfully create a dispute case on the first encounter after completing the training course.
+US:100% of merchant services representatives shall be able to successfully perform a follow up action on a dispute case on the first encounter after completing the training course.
+O:The Disputes application shall interface with the Cardmember Information Database.  The Cardmember Information Database provides detailed information with regard to a cardmember.  All cardmember detail information must be obtained from the Cardmember Information Database.
+O:The Disputes applications shall interface with the Merchant Information Database.  The Merchant Information Database provides detailed information with regard to the merchant. All merchant detail information shall be obtained from the Merchant Information Database.
+O:The Disputes application shall interface with the Letters application.  This will allow the Disputes application to request letters as part of the dispute initiation and dispute follow up process. All letter requests must be sent to the Print Letter Utility application.
+O:The Disputes application shall interface with the Cardmember Posting and Billing System.  This will allow the Disputes application to request adjustments to cardmember and merchant�s accounts. All adjustment requests must be sent to the Cardmember Posting and Billing System.
+SE:The Disputes application shall ensure that only users with the appropriate access level are allowed to initiate dispute requests.
+SE:Only users with Update access must be able to initiate dispute requests.
+SE:The Disputes application shall ensure that only authorized users are allowed to logon to the application.
+SE: All authorized users  once authenticated must be able to logon to the Disputes System
+SE:The Disputes System shall generate a User Report that details any new users that have been added and any changes to an existing user�s access level.  The report will be reviewed for auditing purposes.
+SE:All additions of new users and modifications to users access shall be recorded on the User Report.
+SE: If a user account is revoked  it can only be re-instantiated by the System Administrator.
+SE:Only the System Administrator shall be able to reset a revoked user logon account
+SE:The Disputes application shall manipulate and view business data. Users will not have direct access to data files or databases.
+SE:All updates to data files or database must be initiated from the Disputes System.
+L:The Disputes application must conform to the legal requirements as specified by the Merchant Operating Regulations.
+L:All business rules specified in the Disputes System shall be in compliance with the Merchant Operating Regulations.
+L:The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.
