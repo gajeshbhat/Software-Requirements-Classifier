@@ -1,0 +1,48 @@
+# Embedded Systems Project: Smart Home Thermostat
+# Notes:
+# - Microcontroller: STM32
+# - Sensors: Temperature, Humidity
+# - Connectivity: Wi-Fi (ESP8266) + Optional BLE
+# - Real-time constraints apply to critical temperature controls
+# - Power efficiency is crucial (battery-powered)
+
+1. The system shall measure room temperature every 2 seconds.
+
+2. Humidity data should be logged continuously.
+
+3. Wi-Fi should connect automatically when power is turned on.
+
+4. The device must operate within a temperature range of 0°C to 50°C.
+
+5. Users should be able to configure the system remotely.
+
+6. There will be support for over-the-air (OTA) updates.
+
+7. The display should show current temperature and setpoint.
+
+8. Use a secure protocol.
+
+9. The thermostat should respond quickly to temperature changes.
+
+10. BLE connectivity might be added later.
+
+11. Store logs in memory.
+
+12. System boot time must be minimized.
+
+13. Ensure reliability and safety.
+
+14. The device should be small.
+
+15. If the Wi-Fi fails, fallback to BLE mode. (Pending hardware support)
+
+16. Buttons should provide tactile feedback.
+
+17. Provide weekly energy reports to the user.
+
+18. Enable firmware update.
+
+19. It should not overheat.
+
+20. Maintain temperature stability.
+
